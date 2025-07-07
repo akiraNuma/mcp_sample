@@ -1,0 +1,31 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    json (2.12.2)
+    json_rpc_handler (0.1.1)
+    mcp (0.1.0)
+      json_rpc_handler (~> 0.1)
+    net-http (0.6.0)
+      uri
+    nio4r (2.7.4)
+    puma (6.6.0)
+      nio4r (~> 2.0)
+    rack (3.1.16)
+    rackup (2.2.1)
+      rack (>= 3)
+    uri (1.0.3)
+
+PLATFORMS
+  ruby
+  x86_64-darwin-24
+
+DEPENDENCIES
+  json
+  mcp (~> 0.1.0)
+  net-http
+  puma
+  rack
+  rackup
+
+BUNDLED WITH
+   2.6.3
